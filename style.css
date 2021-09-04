@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    background:blue;
+    width: 100%;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+    box-shadow: 1px 2px 8px black;
+}
+header span{
+    position: relative;
+    left: 4%;
+    height: 100px;
+    color: white;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px darkblue;
+}
+header span a{
+    text-decoration: none;
+    color: white;
+}
+header span a:hover{
+    text-shadow: 1px 1px 3px black;
+    transition: 0.5s;
+}
+header ul{
+    float: right;
+    margin-top: 2.5%;
+    position: relative;
+    right: 5%;
+}
+header ul li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    margin: 0px 8px;
+    /* border: 1.8px solid white; */
+    font-size: 18px;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul li:hover{
+    /* background-color: white; */
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 7px red;
+    transition: 0.5s;
+}
+footer{
+    background:blue;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    box-shadow:  black -1px -2px 8px;  
+}
+footer span{
+    color: white;
+    line-height: 90px;   
+    font-size: 22px;
+    text-shadow: 1px 1px 4px darkblue
+}
+footer span a{
+    text-decoration: none;
+    color: white;
+}
+footer span a:hover{
+    text-shadow: 1px 1px 3px black;
+    transition: 0.5s;
+}
+content{
+    margin-bottom: 50%;
+}
+content .one{
+    /* border: 1px solid black; */
+    height: 370px;
+    width: 20%;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    box-shadow: 0px 0px 10px 9px silver;
+}
+content .two{
+    height: 370px;
+    width: 20%;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px 9px silver;
+}
+content .three{
+    height: 370px;
+    width: 20%;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px 9px silver;
+}
+content .four{
+    height: 370px;
+    width: 20%;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px 9px silver;
+}
+content .trphones{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+content .trphones .one{
+    text-align: center;
+}
+content .trphones .one img{
+    position: relative;
+    top: 19px;
+}
+content .trphones .one #op{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 44px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .one #pp{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 49px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .one .hr{
+    background:#d4d3d3;
+    height: 1px;
+    position: relative;
+    top: 30px;
+}
+.hovereff:hover{
+    box-shadow: 1px 2px 10px red;
+    transition: 0.5s;
+}
+/* two */
+content .trphones .two{
+    text-align: center;
+}
+content .trphones .two img{
+    width: 59%;
+    position: relative;
+    top: 19px;
+}
+content .trphones .two #op{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 44px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .two #pp{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 49px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .two .hr{
+    background:#d4d3d3;
+    height: 1px;
+    position: relative;
+    top: 30px;
+}
+/* three */
+content .trphones .three{
+    text-align: center;
+}
+content .trphones .three img{
+    width: 47%;
+    position: relative;
+    top: 19px;
+}
+content .trphones .three #op{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 44px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .three #pp{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 49px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .three .hr{
+    background:#d4d3d3;
+    height: 1px;
+    position: relative;
+    top: 30px;
+}
+/* four */
+content .trphones .four{
+    text-align: center;
+}
+content .trphones .four img{
+    width: 62%;
+    position: relative;
+    top: 19px;
+}
+content .trphones .four #op{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 44px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .four #pp{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 49px;
+    text-shadow: 0px 0px 2px silver;
+}
+content .trphones .four .hr{
+    background:#d4d3d3;
+    height: 1px;
+    position: relative;
+    top: 30px;
+}
+
+/* Article Show Begins Now... */
+
+article{
+    margin-top: 25%;
+}
+
+/* aone */
+article .aone h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.asub{
+    display: flex;
+}
+.aone img{
+    width: 103%;
+}
+.aone{
+    margin-bottom: 8%;
+    padding: 10px;
+    padding-top: 115px;
+}
+.aone .asub .content h2{
+    margin: 2px 0px 11px 10px;
+}
+.aone .asub .content{
+    padding: 15px;
+}
+
+/* atwo */
+article .atwo h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.asub{
+    display: flex;
+}
+.atwo img{
+    width: 53%;
+    position: relative;
+    left: 30%;
+    bottom: 20px;
+}
+.atwo{
+    margin-bottom: 15%;
+    padding: 10px;
+    padding-top: 141px;
+}
+.atwo .asub .content h2{
+    margin: 2px 0px 11px 10px;
+}
+.atwo .asub .content{
+    padding: 15px;
+}
+
+/* athree */
+article .athree h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.asub{
+    display: flex;
+}
+.athree img{
+    width: 87%;
+    position: relative;
+    left: 65%;
+    bottom: 23px;
+}
+.athree{
+    margin-bottom: 15%;
+    padding: 10px;
+    padding-top: 133px;
+}
+.athree .asub .content h2{
+    margin: 2px 0px 11px 10px;
+}
+.athree .asub .content{
+    padding: 0px 0px 0px 23%;
+}
+
+/* aFOUR */
+article .afour h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.asub{
+    display: flex;
+}
+.afour img{
+    width: 55%;
+    position: relative;
+    bottom: 5%;
+    left: 15%;
+}
+.afour{
+    margin-bottom: 8%;
+    padding: 10px;
+}
+.afour .asub .content h2{
+    margin: 2px 0px 11px 10px;
+}
+.afour .asub .content{
+    padding: 20px;
+}
